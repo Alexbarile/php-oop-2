@@ -2,15 +2,15 @@
 
     class InfoPlay extends products{
         public $caratteristiche;
-        public $dimensioni;
+        public $dimensione;
 
-        function __construct($_immagine, $_nome, $_prezzo, $_razza, $_caratteristiche, $_dimensioni){
+        function __construct($_immagine, $_nome, $_prezzo, $_razza, $_caratteristiche, $_dimensione){
 
             // richiamo il construct PADRE
             parent::__construct($_immagine, $_nome, $_prezzo, $_razza);
             
             $this->caratteristiche = $_caratteristiche;
-            $this->dimensioni = $_dimensioni;
+            $this->dimensione = $_dimensione;
         }
     }
 
