@@ -3,16 +3,15 @@
     class Products{
         public $immagine;
         public $nome;
-        public $altro;
         public $prezzo;
+        public $razza;
 
-        function __construct($_immagine, $_nome, $_altro, $_prezzo){
+        function __construct($_immagine, $_nome, $_prezzo, $_razza){
             $this->immagine = $_immagine;
             $this->nome = $_nome;
-            $this->altro = $_altro;
             $this->prezzo = $_prezzo;
+            $this->razza = $_razza;
         }
     }
-
 
 ?>
